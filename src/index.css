@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap');
+
+:root {
+  --bg-1: #fff1f5;
+  --bg-2: #ffe0ea;
+  --bg-3: #f7c3d2;
+  --ink: #2d1f2a;
+  --accent: #e63b74;
+  --accent-dark: #c82f63;
+  --card: rgba(255, 255, 255, 0.92);
+  --border: rgba(230, 59, 116, 0.2);
+  --shadow: 0 18px 40px rgba(45, 16, 30, 0.18);
+  --soft: #fff7f9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Source Sans 3', 'Segoe UI', sans-serif;
+  color: var(--ink);
+  background: radial-gradient(circle at 15% 20%, rgba(255, 255, 255, 0.8), transparent 45%),
+    radial-gradient(circle at 85% 25%, rgba(255, 207, 220, 0.7), transparent 40%),
+    linear-gradient(135deg, var(--bg-1), var(--bg-2) 40%, var(--bg-3));
+  overflow: hidden;
+}
